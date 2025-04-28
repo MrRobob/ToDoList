@@ -6,5 +6,6 @@ export default {
     coverage: {
       reporter: ["text", "html"], // Coverage-Bericht in Text- und HTML-Format
     },
+    threads: false, // Deaktiviert Multithreading für Tests
   },
 };
